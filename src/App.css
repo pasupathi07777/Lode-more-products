@@ -1,5 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  user-select: none;
 }
 
 .App-logo {
@@ -36,3 +45,28 @@
     transform: rotate(360deg);
   }
 }
+/* Hide scrollbar */
+.App::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+.Apps::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+.App::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+.App::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Apps::-webkit-scrollbar {
+  width: 8px;
+  background-color:green;
+} 
+
