@@ -64,7 +64,7 @@ const Additem = ({ URL }) => {
 
     return (
         <div className="container w-full h-full py-3 ">
-            <div className="con-2 w-[100vw] flex flex-wrap  px-2 pt-2 ">
+            <div className="con-2 w-[100vw] flex flex-wrap  px-2 py-0 ">
                 {products.length ? (
                     products.map((p) => (
                         <div className="box w-1/2 sm:w-1/5 h-[200px] sm:h-[200px] p-2 rounded" key={p.id}>
