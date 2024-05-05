@@ -50,10 +50,10 @@ const Additem = ({ URL }) => {
     },[products])
 
     if (loading) {
-        return <div>Loading</div>;
+        return <div className='w-full text-center font-semibold text-white mt-5' >Loading...</div>;
     }
     if (error) {
-        return <div>{`Error ${errormes}`}</div>;
+        return <div className='w-full text-center font-semibold text-white mt-5'>{`Error ${errormes}`}</div>;
     }
     let lengthcheck=()=>{
         console.log(products)
